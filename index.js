@@ -73,4 +73,3 @@ function placeOrder(cardNumber) {
     return checkout.join()
     }
   }
-   
