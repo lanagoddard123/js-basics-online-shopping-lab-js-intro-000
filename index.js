@@ -62,5 +62,15 @@ return cart
 
 
 function placeOrder(cardNumber) {
-  // write your code here
-}
+    // write your code here
+      var cartMT = []
+      let checkout =[]
+    if (!cardNumber){
+      return "Sorry, we don't have a credit card on file for you."
+    }else{
+    checkout.push(`Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`)
+    cartMT.push(cart = [])
+    return checkout.join()
+    }
+  }
+   
